@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -47,7 +48,7 @@
   </div>
  </main>
 
-   <main class="books">
+   <section class="books">
   <div class="book-item">
     <img src="images/book5.jpg" alt="Book 1">
     <h6>نافذة علي الحياة</h6>
@@ -68,25 +69,48 @@
     <h6>محتوم</h6>
     <button class="add-to-cart">Add to cart 🛒</button>
   </div>
-</main>
+</section>
 <button id="backToTop">⬆ Top</button>
 <footer class="footer">
-  <div class="socials" aria-label="روابط السوشيال">
-    <a class="social" href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-      <!-- Facebook SVG -->
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg>
-    </a>
+  <div class="footer-container">
 
-    <a class="social" href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-      <!-- Instagram SVG -->
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM18 6.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
-    </a>
+    <!-- Logo + description -->
+    <div class="footer-section">
+      <h2>📚 BookStore</h2>
+      <p>Your favorite place to find amazing books.</p>
+    </div>
 
-    <a class="social" href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X">
-      <!-- X/Twitter SVG -->
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2H21l-6.53 7.46L22 22h-6.59l-4.9-6.4L3.9 22H2l7.07-8.07L2 2h6.74l4.38 5.77L18.24 2zm-1.16 18h1.77L7.02 4H5.2l11.88 16z"/></svg>
-    </a>
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Categories</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-section">
+      <h3>Help</h3>
+      <a href="#">FAQ</a>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+      <a href="#">Support</a>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="socials">
+  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+  <a href="#" class="twitter"><i class="fab fa-x-twitter"></i></a>
+</div>
+    </div>
+
   </div>
+
+  <p class="copyright">© 2026 BookStore. All rights reserved.</p>
 </footer>
 <script src="script.js"></script>
 </body>
